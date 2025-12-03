@@ -1,3 +1,6 @@
+<div className="page-container">
+  {children}
+</div>
 // src/app/layout.tsx
 import "./globals.css";
 
