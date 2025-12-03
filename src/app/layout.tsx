@@ -1,27 +1,27 @@
 import "./globals.css";
+
 export const metadata = {
   title: "Simple CRM",
   description: "Minimal CRM built with Next.js and Prisma",
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
         <header>
           <h1>Simple CRM</h1>
+
           <nav>
-            <a href="/">Home</a> | <a href="/contacts">Contacts</a>
+            <a href="/">Home</a>
+            <a href="/contacts">Contacts</a>
           </nav>
         </header>
 
-        <main>{children}</main>
+        <div className="page-container">
+          {children}
+        </div>
       </body>
     </html>
   );
 }
-
