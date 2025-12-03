@@ -1,5 +1,3 @@
-import "./globals.css";
-
 export const metadata = {
   title: "Simple CRM",
   description: "Minimal CRM built with Next.js and Prisma",
