@@ -1,3 +1,8 @@
+<h2>Add New Contact</h2>
+<form>
+  <input />
+  <button>Save Contact</button>
+</form>
 "use client";
 
 import { useState } from "react";
